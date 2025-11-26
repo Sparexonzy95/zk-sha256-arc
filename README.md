@@ -192,8 +192,8 @@ MIT License
 
 ## 📞 Contact
 
-For questions or collaboration opportunities, please open an issue or reach out via Twitter.
+For questions or collaboration opportunities, please open an issue or reach out via Twitter @0xklink.
 
 ---
 
-**Built with ❤️ for Arc Network** 🚀
+**Built with love for Arc Network
