@@ -1,0 +1,29 @@
+{
+  "name": "zk-sha256-arc",
+  "version": "1.0.0",
+  "description": "ZK-verified SHA-256 implementation on Arc blockchain",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "prove": "node scripts/generateProof.js",
+    "verify-proof": "node scripts/verifyProof.js",
+    "setup-circuit": "bash scripts/setup-circuit.sh"
+  },
+  "keywords": ["zk", "sha256", "arc", "blockchain"],
+  "author": "Kimmy",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "hardhat": "^2.19.4",
+    "chai": "^4.3.10",
+    "ethers": "^6.10.0"
+  },
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.3",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0"
+  }
+}

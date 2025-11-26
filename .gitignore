@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Build artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Circuit build files
+circuits/build/
+*.ptau
+*.r1cs
+*.sym
+*.zkey
+*.wtns
+
+# Generated files
+proofs/
+verifications/
+deployments/
+
+# System files
+.DS_Store
+*.log
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# Hardhat
+coverage/
+coverage.json
